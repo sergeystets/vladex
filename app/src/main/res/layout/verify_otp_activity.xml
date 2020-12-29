@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".activity.VerifyOtpActivity">
+
+    <TextView
+        android:id="@+id/otp_was_sent_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp" />
+
+    <EditText
+        android:id="@+id/otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/otp_was_sent_note"
+        android:hint="@string/code"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/otp_will_expire_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/otp"
+        android:layout_below="@+id/otp"
+        android:layout_marginTop="34dp"
+        android:layout_marginBottom="-99dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp" />
+
+
+</RelativeLayout>
