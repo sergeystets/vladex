@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Vladex</string>
-    <string name="logo">logo</string>
     <string name="code">Code</string>
     <string name="phone_number">Phone Number</string>
     <string name="btn_sign_in_next">Next</string>
