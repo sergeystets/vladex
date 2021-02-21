@@ -1,9 +1,4 @@
 <resources>
     <string name="app_name">Vladex</string>
-    <string name="code">Code</string>
-    <string name="phone_number">Phone Number</string>
-    <string name="btn_sign_in_next">Next</string>
     <string name="sign_in">Sign In</string>
-    <string name="otp_was_sent_note">We\'ve sent an SMS with activation code to your phone %s</string>
-    <string name="it_will_expire_in_note">It will expire in: %d</string>
 </resources>

@@ -12,7 +12,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.VerifyOtpActivity"></activity>
+        <activity android:name=".activity.SignInCallBackActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:host="vladex-messenger"
+                    android:scheme="app" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".activity.SignInActivity"
             android:theme="@style/Theme.AppCompat.Light">
